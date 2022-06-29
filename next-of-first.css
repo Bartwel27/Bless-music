@@ -1,0 +1,62 @@
+.container {
+  background: #333;
+  padding: 10px;
+}
+
+
+.media-cont{
+ background: #444;
+ padding: 10px;
+ margin: 0 auto;
+ max-width: 300px;
+ position: reltive;
+}
+
+.media-selector{
+  background: #333;
+  border: 1px solid white;
+  position: relative;
+}
+.app-share {
+  position: relative;
+  padding: 10px;
+}.app-share a{
+ text-decoration: none;
+ color: gray;
+}.app-share svg{
+  font-size: 30px;
+}.app-share span{
+  position: absolute;
+  top: 15;
+  right: 5;
+}
+
+.audio-player{
+ position: relative;
+ padding: 10px;
+ border-top: 1px solid white;
+}.audio-player a{
+ text-decoration: none;
+ color: gray;
+}.audio-player svg{
+ font-size: 30px;
+}.audio-player span{
+ position: absolute;
+ top: 15;
+ right: 5;
+}
+
+.download-btn{
+ position: relative;
+ padding: 10px;
+ border-top: 1px solid white;
+}.download-btn a{
+ text-decoration: none;
+ color: gray;
+}.download-btn svg{
+ font-size: 30px;
+}.download-btn span{
+ position: absolute;
+ top: 15;
+ right: 5;
+}

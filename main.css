@@ -1,0 +1,572 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background: #333;
+  font-family: sans-serif;
+ }
+ 
+ .head{
+  background: #222;
+  padding: 5px;
+  position: relative;
+  border: px solid white;
+  max-width: auto;
+ }
+ 
+ .title-bar{
+  background: #222;
+  width: 65%;
+  max-width: 200px;
+  padding: 10px;
+ }.title-bar #ani{
+  font-size: 20px;
+  animation: ani 2s linear infinite;
+  outline: none;
+  font-size: 30px;
+  border-radius: 10px;
+ }@keyframes ani{
+   0%{
+    border: px solid rgb(255,5,5);
+    color: red;
+   }
+   33.3%{
+    border: px solid #66ccff;
+    color: #66ccff;
+   }
+   66.6%{
+    border: px solid #ff66cc;;
+    color: #ff66cc;
+   }
+   100%{
+    border: px solid red;
+    color: red;
+   }
+ }
+ 
+ .navigator{
+   position: absolute;
+   top: 10;
+   right: 0;
+   margin: 0;padding: 0;
+ }.navigator svg{
+  color: white;
+  font-size: 30px;
+  padding: 0;margin: 0;
+  border: 1px solid white;
+  border-radius: 5px;
+ }.navigator #two{
+  display: none;
+ }
+ 
+ 
+ 
+/*****MENU bar arrangement****/ 
+ #one{
+ position: absolute;
+ top: 10;right: 20;
+ }
+ #two{
+ position: absolute;
+ top: 10;right: 20;
+ }
+ #three{
+ position: absolute;
+ top: 10;right: 20;
+} 
+
+
+
+ 
+#navigate-openner{
+ margin: 0px;
+ padding: 0px;
+ position: relative;
+}#navigate-openner {
+ margin: 0px;
+ padding: 0px;
+}
+#navigate-openner
+ #home-svg,
+ #about-svg,
+ #contact-svg,
+ #upload-svg,
+ #settings-svg{
+  display: none;
+  margin: 0px;
+  padding: 0px;
+ }
+ 
+ 
+ 
+ .search-engin{
+   position: relative;
+   width: 90%;
+   max-width: 400px;
+ 
+   
+ }.search-engin input{
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border-radius: ;
+ }.search-engin button{
+  position: absolute;
+  right: 1;
+  top: 5;
+  background: white;
+  border: 0px solid white;
+  height: 30px;
+  outline: ;
+ }.search-engin svg{
+  font-size: 20px
+ }
+ 
+ .container {
+  background: #333;
+  padding: 10px;
+  
+ }
+ 
+ .music-wrapp-1{
+  background: white;/*linear-gradient(to right, blue, #444)*/
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: ;
+  border-radius: 20px; 
+  
+  max-width: 350px;
+  margin: 0 auto;
+ }.music-wrapp-1 a{
+  position: ;
+
+ }
+ .image{
+  padding: 0px;
+  margin: 0px;
+  
+  
+ }.image img{
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0px solid white;
+ }
+ 
+ .music-info-wrapper-1{
+  position: ;
+  border: px solid black;
+  padding: 0px;
+  margin: 0px;
+ }.music-info-wrapper-1 p{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  width: 3.0cm;
+  color: gray;
+  position: absolute;
+  top: 0;
+  right: 20;
+ }
+ 
+ .share-bar{
+  position: absolute;
+  bottom: 10;
+  right: 10;
+ }.share-bar button{
+  background: white;
+  border-radius: 5px;
+  outline: none;
+  
+ }.share-bar a{
+  
+ }.share-bar svg{
+  font-size: 20px;
+ }
+ 
+ 
+
+.music-wrapp-2{
+  background: white;/*linear-gradient(to right, blue, #444)*/
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: ;
+  border-radius: 20px; 
+  
+  max-width: 350px;
+  margin: 0 auto;
+ }.music-wrapp-2 a{
+  position: ;
+
+ }
+ .image-2{
+  padding: 0px;
+  margin: 0px;
+  
+  
+ }.image-2 img{
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0px solid white;
+ }
+ 
+ .music-info-wrapper-2{
+  position: ;
+  border: px solid black;
+  padding: 0px;
+  margin: 0px;
+ }.music-info-wrapper-2 p{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  width: 3.0cm;
+  color: gray;
+  position: absolute;
+  top: 0;
+  right: 20;
+ }
+ 
+ .share-bar-2{
+  position: absolute;
+  bottom: 10;
+  right: 10;
+ }.share-bar-2 button{
+  background: white;
+  border-radius: 5px;
+  outline: none;
+  
+ }.share-bar-2 a{
+  
+ }.share-bar-2 svg{
+  font-size: 20px;
+ }
+
+
+
+
+.music-wrapp-3{
+  background: white;/*linear-gradient(to right, blue, #444)*/
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: ;
+  border-radius: 20px; 
+  
+  max-width: 350px;
+  margin: 0 auto;
+ }.music-wrapp-3 a{
+  position: ;
+
+ }
+ .image-3{
+  padding: 0px;
+  margin: 0px;
+  
+  
+ }.image-3 img{
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0px solid white;
+ }
+ 
+ .music-info-wrapper-3{
+  position: ;
+  border: px solid black;
+  padding: 0px;
+  margin: 0px;
+ }.music-info-wrapper-3 p{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  width: 3.0cm;
+  color: gray;
+  position: absolute;
+  top: 0;
+  right: 20;
+ }
+ 
+ .share-bar-3{
+  position: absolute;
+  bottom: 10;
+  right: 10;
+ }.share-bar-3 button{
+  background: white;
+  border-radius: 5px;
+  outline: none;
+  
+ }.share-bar-3 a{
+  
+ }.share-bar-3 svg{
+  font-size: 20px;
+ }
+
+ 
+
+.music-wrapp-4{
+  background: white;/*linear-gradient(to right, blue, #444)*/
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: ;
+  border-radius: 20px; 
+  
+  max-width: 350px;
+  margin: 0 auto;
+ }.music-wrapp-4 a{
+  position: ;
+
+ }
+ .image-4{
+  padding: 0px;
+  margin: 0px;
+  
+  
+ }.image-4 img{
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0px solid white;
+ }
+ 
+ .music-info-wrapper-4{
+  position: ;
+  border: px solid black;
+  padding: 0px;
+  margin: 0px;
+ }.music-info-wrapper-4 p{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  width: 3.0cm;
+  color: gray;
+  position: absolute;
+  top: 0;
+  right: 20;
+ }
+ 
+ .share-bar-4{
+  position: absolute;
+  bottom: 10;
+  right: 10;
+ }.share-bar-4 button{
+  background: white;
+  border-radius: 5px;
+  outline: none;
+  
+ }.share-bar-4 a{
+  
+ }.share-bar-4 svg{
+  font-size: 20px;
+ }
+
+ 
+ 
+ 
+ 
+ .music-wrapp-5{
+ background: white;/*linear-gradient(to right, blue, #444)*/
+ padding: 0;
+ margin: 0;
+ position: relative;
+ width: ;
+ border-radius: 20px; 
+ 
+ max-width: 350px;
+ margin: 0 auto;
+ }.music-wrapp-5 a{
+ position: ;
+ 
+ }
+ .image-5{
+ padding: 0px;
+ margin: 0px;
+ 
+ 
+ }.image-5 img{
+ width: 50%;
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
+ border: 0px solid white;
+ }
+ 
+ .music-info-wrapper-5{
+ position: ;
+ border: px solid black;
+ padding: 0px;
+ margin: 0px;
+ }.music-info-wrapper-5 p{
+ font-size: 15px;
+ margin: 0px;
+ padding: 0px;
+ width: 3.0cm;
+ color: gray;
+ position: absolute;
+ top: 0;
+ right: 20;
+ }
+ 
+ .share-bar-5{
+ position: absolute;
+ bottom: 10;
+ right: 10;
+ }.share-bar-5 button{
+ background: white;
+ border-radius: 5px;
+ outline: none;
+ 
+ }.share-bar-5 a{
+ 
+ }.share-bar-5 svg{
+ font-size: 20px;
+ }
+ 
+ 
+ 
+.music-wrapp-6{
+  background: white;/*linear-gradient(to right, blue, #444)*/
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: ;
+  border-radius: 20px; 
+  
+  max-width: 350px;
+  margin: 0 auto;
+ }.music-wrapp-6 a{
+  position: ;
+
+ }
+ .image-6{
+  padding: 0px;
+  margin: 0px;
+  
+  
+ }.image-6 img{
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0px solid white;
+ }
+ 
+ .music-info-wrapper-6{
+  position: ;
+  border: px solid black;
+  padding: 0px;
+  margin: 0px;
+ }.music-info-wrapper-6 p{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  width: 3.0cm;
+  color: gray;
+  position: absolute;
+  top: 0;
+  right: 20;
+ }
+ 
+ .share-bar-6{
+  position: absolute;
+  bottom: 10;
+  right: 10;
+ }.share-bar-6 button{
+  background: white;
+  border-radius: 5px;
+  outline: none;
+  
+ }.share-bar-6 a{
+  
+ }.share-bar-6 svg{
+  font-size: 20px;
+ }
+
+
+
+
+
+.music-wrapp-7{
+  background: white;/*linear-gradient(to right, blue, #444)*/
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: ;
+  border-radius: 20px; 
+  
+  max-width: 350px;
+  margin: 0 auto;
+ }.music-wrapp-7 a{
+  position: ;
+
+ }
+ .image-7{
+  padding: 0px;
+  margin: 0px;
+  
+  
+ }.image-7 img{
+  width: 50%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0px solid white;
+ }
+ 
+ .music-info-wrapper-7{
+  position: ;
+  border: px solid black;
+  padding: 0px;
+  margin: 0px;
+ }.music-info-wrapper-7 p{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  width: 3.0cm;
+  color: gray;
+  position: absolute;
+  top: 0;
+  right: 20;
+ }
+ 
+ .share-bar-7{
+  position: absolute;
+  bottom: 10;
+  right: 10;
+ }.share-bar-7 button{
+  background: white;
+  border-radius: 5px;
+  outline: none;
+  
+ }.share-bar-7 a{
+  
+ }.share-bar-7 svg{
+  font-size: 20px;
+ }
+
+
+
+
+
+
+
+
+footer{
+ background: #222;
+ padding: 10px;
+ text-align: center;
+ 
+}footer a{
+  text-decoration: none;
+}footer button{
+  margin: 2px;
+  width: 60%;
+  max-width: 350px;
+  height: 40px;
+  background: #222;
+  color: gray;
+  border: 0px solid black;
+  
+  border-bottom: 1px solid gray;
+  outline: none;
+}
